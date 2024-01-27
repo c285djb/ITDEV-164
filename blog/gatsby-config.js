@@ -9,10 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Gatsby Blog Time`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    contact: {
+      name: 'Carter J Manley',
+      company: 'Manco Educationals inc.',
+      address: '4343 PP lane'
+    }
   },
   plugins: [
     `gatsby-plugin-image`,
