@@ -23,10 +23,10 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: 'qz1pn3wi34tn',
-        accessToken: 'XJmWfXl2wfaL0lMohZLgOlrpLckLK8rSXXsYkCuPoco'
+        spaceId: `qz1pn3wi34tn`,
+        accessToken: `XJmWfXl2wfaL0lMohZLgOlrpLckLK8rSXXsYkCuPoco`
       }
-    }
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
