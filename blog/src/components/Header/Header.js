@@ -62,4 +62,4 @@ Header.defaultProps = {
 //   </header>
 // )
 
-export default Header
+export {Header}
