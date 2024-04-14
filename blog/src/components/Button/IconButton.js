@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { BaseButton } from './BaseButton'
 
 const StyledButton = styled(BaseButton)`
-       // style themes
+       ${({theme, variant}) => theme.variants.IconButton[variant || 'primary']}
 `
 
 export const IconButton = styled(({ icon, ...rest}) => {
